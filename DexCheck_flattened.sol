@@ -7,7 +7,7 @@
 
 // OpenZeppelin Contracts v4.4.1 (utils/Context.sol)
 
-pragma solidity ^0.8.0;
+pragma solidity 0.8.0;
 
 /**
  * @dev Provides information about the current execution context, including the
@@ -34,7 +34,7 @@ abstract contract Context {
 
 // OpenZeppelin Contracts (last updated v4.7.0) (access/Ownable.sol)
 
-pragma solidity ^0.8.0;
+pragma solidity 0.8.0;
 
 
 /**
@@ -119,7 +119,7 @@ abstract contract Ownable is Context {
 
 // OpenZeppelin Contracts (last updated v4.6.0) (token/ERC20/IERC20.sol)
 
-pragma solidity ^0.8.0;
+pragma solidity 0.8.0;
 
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP.
@@ -204,7 +204,7 @@ interface IERC20 {
 
 // OpenZeppelin Contracts v4.4.1 (token/ERC20/extensions/IERC20Metadata.sol)
 
-pragma solidity ^0.8.0;
+pragma solidity 0.8.0;
 
 
 /**
@@ -234,7 +234,7 @@ interface IERC20Metadata is IERC20 {
 
 // OpenZeppelin Contracts (last updated v4.8.0) (token/ERC20/ERC20.sol)
 
-pragma solidity ^0.8.0;
+pragma solidity 0.8.0;
 
 
 
@@ -625,7 +625,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 
 // OpenZeppelin Contracts (last updated v4.5.0) (token/ERC20/extensions/ERC20Burnable.sol)
 
-pragma solidity ^0.8.0;
+pragma solidity 0.8.0;
 
 
 
@@ -664,7 +664,7 @@ abstract contract ERC20Burnable is Context, ERC20 {
 // File: DexCheck.sol
 
 
-pragma solidity ^0.8.9;
+pragma solidity 0.8.9;
 
 contract DexCheck is ERC20, ERC20Burnable, Ownable {
     constructor() ERC20("DexCheck", "DCK") {
